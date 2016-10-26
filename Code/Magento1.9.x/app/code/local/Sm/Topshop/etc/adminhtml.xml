@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+	<config>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<topshop_cfg translate="title" module="topshop">
+											<title>SM topshop Section</title>
+											<sort_order>150</sort_order>
+										</topshop_cfg>
+									</children>
+								</config>
+							</children>
+						</system>						
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<menu>
+			<topshop translate="title" module="topshop">
+				<title>SM Topshop Setting</title>
+				<sort_order>100</sort_order>
+				<depends>
+					<module>Sm_Topshop</module>
+				</depends>
+				<children>
+					<topshop translate="title" module="topshop">
+						<title>SM Topshop Setting</title>
+						<action>adminhtml/system_config/edit/section/topshop_cfg</action>
+						<sort_order>0</sort_order>
+					</topshop>
+					
+					<basicproducts_cfg translate="title" module="topshop">
+						<title>SM Basic Products</title>
+						<sort_order>1</sort_order>
+						<action>adminhtml/system_config/edit/section/basicproducts_cfg</action>
+					</basicproducts_cfg>	
+
+							
+					<cartpro translate="title" module="topshop">
+						<title>SM Cart Pro</title>
+						<action>adminhtml/system_config/edit/section/cartpro_cfg</action>
+						<sort_order>3</sort_order>
+					</cartpro>					
+			
+
+					<megamenu translate="title">
+						<title>SM Mega Menu</title>
+						<children>
+							<menugroup translate="title" module="topshop">
+								<title>Menu Manager</title>
+								<action>megamenu/adminhtml_menugroup/</action>
+								<sort_order>1</sort_order>
+							</menugroup>	
+							<menuitems translate="title" module="topshop">
+								<title>Menu Items Manager</title>
+								<action>megamenu/adminhtml_menuitems/</action>
+								<sort_order>2</sort_order>
+							</menuitems>
+							<configurtion translate="title" module="topshop">
+								<title>Configuration</title>
+								<action>adminhtml/system_config/edit/section/megamenu_cfg</action>
+								<sort_order>3</sort_order>
+							</configurtion>
+						</children>
+					</megamenu>
+					
+					<imageslider_cfg>
+						<title>SM Image Slider</title>
+						<action>adminhtml/system_config/edit/section/imageslider_cfg</action>
+					</imageslider_cfg>
+					
+					<deal_cfg translate="title" module="topshop">
+						<title>SM Deal</title>
+						<action>adminhtml/system_config/edit/section/deal_cfg</action>
+						<sort_order>4</sort_order>
+					</deal_cfg>	
+	
+					<quickview translate="title" module="topshop">
+						<title>SM Quickview</title>
+						<action>adminhtml/system_config/edit/section/quickview</action>
+						<sort_order>7</sort_order>
+					</quickview>
+					
+					<sm_shopby translate="title" module="topshop">
+						<title>SM Shopby</title>
+						<action>adminhtml/system_config/edit/section/sm_shopby</action>
+						<sort_order>8</sort_order>
+					</sm_shopby>
+					
+					<listingtabs_cfg translate="title" module="topshop">
+						<title>SM Listing Tabs</title>
+						<action>adminhtml/system_config/edit/section/listingtabs_cfg</action>
+						<sort_order>9</sort_order>
+					</listingtabs_cfg>	
+					
+					<custom_cfg translate="title" module="topshop">
+						<title>SM Custom</title>
+						<action>adminhtml/system_config/edit/section/custom_cfg</action>
+						<sort_order>10</sort_order>
+					</custom_cfg>	
+					
+					<searchboxpro translate="title" module="searchboxpro">
+						<title>SM Searchboxpro Settings</title>
+						<action>adminhtml/system_config/edit/section/searchboxpro</action>
+						<sort_order>11</sort_order>
+					</searchboxpro>		
+					
+					<supercategories_cfg translate="title" module="supercategories">
+						<title>SM Super Categories</title>
+						<action>adminhtml/system_config/edit/section/supercategories_cfg</action>
+						<sort_order>12</sort_order>
+					</supercategories_cfg>
+					
+					<instagramgallery translate="title" module="topshop">
+						<title>SM Image Instagram</title>
+						<action>adminhtml/system_config/edit/section/instagramgallery</action>
+						<sort_order>13</sort_order>
+					</instagramgallery>						
+				</children>
+			</topshop>
+		</menu>		
+	</config>

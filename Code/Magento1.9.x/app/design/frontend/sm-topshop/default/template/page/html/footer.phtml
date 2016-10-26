@@ -1,0 +1,122 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<?php
+	$config = Mage::helper('topshop/config');
+?>
+<div class="wow fadeIn">
+	<div class="footer-container">
+<!--GO TO TOP-->
+	<?php if($config->getAdvanced('show_ontop') == 1){ ?>
+		<a id="yt-totop" href="javascript:void(0)" title="Go to Top"></a>
+		<script type="text/javascript">
+			jQuery(document).ready(function($){  
+				$("#yt-totop").hide();
+				$(function () {
+					var wh = $(window).height();
+					var whtml =  $(document).height();
+					$(window).scroll(function () {
+						if ($(this).scrollTop() > whtml/10) {
+							$('#yt-totop').fadeIn();
+						} else {
+							$('#yt-totop').fadeOut();
+						}
+					});
+					$('#yt-totop').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 800);
+						return false;
+					});
+				});
+			});
+		</script>
+	<?php } ?>	
+		<div class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="about-us-footer">
+						<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('about-us-footer')->toHtml(); ?>
+					</div>
+					
+					<div class="social-footer">
+						<?php echo $this->getChildHtml('social_info') ?>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="footer-middle">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 ft-contact-us">
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('ft-contact-us')->toHtml(); ?>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 ft-information">
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('ft-information')->toHtml(); ?>
+						</div>						
+						<div class="col-lg-3 col-md-3 col-sm-6 ft-my-account">
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('ft-my-account')->toHtml(); ?>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 popular-footer">
+							<?php echo $this->getChildHtml('popular-footer'); ?>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 category-footer">
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('ft-category-footer')->toHtml(); ?>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="copyright">
+				<div class="container">
+					<div class="footer-copyright-content">
+						<div class="row">
+							<div class="col-lg-6 col-md-7 col-sm-12">
+								<div class="copyright-footer">
+									<?php if($config->getAdvanced('custom_copyright') == 1){
+										echo $config->getAdvanced('copyright');
+									} else { ?>
+										<address><?php echo $this->getCopyright() ?></address>
+									<?php } ?>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-md-5 col-sm-12">
+								<div class="payment-footer">
+									<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('payment-footer')->toHtml(); ?>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

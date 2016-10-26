@@ -1,0 +1,10 @@
+<?xml version="1.0"?>   
+<layout version="1.0">
+    <twitterslider_index_index>
+        <reference name="content">
+            <block type="twitterslider/list" name="slider.list.default" template="sm/twitterslider/default.phtml">
+            </block>
+        </reference>
+    </twitterslider_index_index>
+</layout>   
+	

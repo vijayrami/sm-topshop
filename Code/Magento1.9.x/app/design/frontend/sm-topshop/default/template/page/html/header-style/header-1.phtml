@@ -1,0 +1,174 @@
+<div class="header-container header-style-1">
+    <div class="header">
+		<div class="header-inner">
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 header-topleft">
+							<div class="topleft-content">
+								<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('hotline')->toHtml(); ?>
+							</div>
+						</div>
+						
+						<div class="col-lg-6 col-md-7 header-topright">
+							<?php echo $this->getChildHtml('currency') ?>
+							<?php echo $this->getChildHtml('store_language') ?>
+							
+								<div class="dropdown-block block-mobile">
+									<div class="dropdown-toggle">
+										<a class="mobile-link" title="<?php echo $this->__('Mobile');?>"><?php echo $this->__('Mobile');?></a>
+									</div>
+									<ul class="dropdown-list">
+										<li class="mn-item-mobile"><a class="item-mobile" href="#" title="<?php echo $this->__('Mobile 1');?>"><?php echo $this->__('Mobile 1');?></a></li>
+										<li class="mn-item-mobile"><a class="item-mobile" href="#" title="<?php echo $this->__('Mobile 2');?>"><?php echo $this->__('Mobile 2');?></a></li>
+										<li class="mn-item-mobile"><a class="item-mobile" href="#" title="<?php echo $this->__('Mobile 3');?>"><?php echo $this->__('Mobile 3');?></a></li>
+										<li class="mn-item-mobile"><a class="item-mobile" href="#" title="<?php echo $this->__('Mobile 4');?>"><?php echo $this->__('Mobile 4');?></a></li>
+									</ul>									
+								</div>
+								
+								<div class="dropdown-block block-help">
+									<div class="dropdown-toggle">
+										<a class="help-link" title="<?php echo $this->__('Help');?>"><?php echo $this->__('Help');?></a>
+									</div>
+									<ul class="dropdown-list">
+										<li class="mn-item-help"><a class="item-help" href="#" title="<?php echo $this->__('Help 1');?>"><?php echo $this->__('Help 1');?></a></li>
+										<li class="mn-item-help"><a class="item-help" href="#" title="<?php echo $this->__('Help 2');?>"><?php echo $this->__('Help 2');?></a></li>
+										<li class="mn-item-help"><a class="item-help" href="#" title="<?php echo $this->__('Help 3');?>"><?php echo $this->__('Help 3');?></a></li>
+										<li class="mn-item-help"><a class="item-help" href="#" title="<?php echo $this->__('Help 4');?>"><?php echo $this->__('Help 4');?></a></li>
+									</ul>							
+								</div>
+								
+								<div class="dropdown-block block-myacount">
+									<div class="account-links">
+										<div class="dropdown-toggle">
+											<a class="myaccount-link" title="<?php echo $this->__('My Account');?>"><?php echo $this->__('My Account');?></a>
+										</div>
+										<ul class="dropdown-list">
+											<li class="mn-my-account"><a class="myaccount-link" href="<?php echo $this->getUrl('customer/account')?>" title="<?php echo $this->__('My Account');?>"><?php echo $this->__('My Account');?></a></li>
+											<li class="mn-my-wishlist"><a class="my-wishlist" href="<?php echo $this->getUrl('wishlist')?>" title="<?php echo $this->__('My Wishlist');?>"><?php echo $this->__('My Wishlist');?></a></li>
+											<li class="mn-top-link-checkout"><a class="top-link-checkout" href="<?php echo $this->getUrl('checkout')?>" title="<?php echo $this->__('Checkout');?>"><?php echo $this->__('Checkout');?></a></li>
+										<?php if(!$this->helper('customer')->isLoggedIn()){?>
+											<li class="mn-login"><a class="popup-login" data-toggle="modal" data-target="#modal-login" title="<?php echo $this->__('Login')?>"><?php echo $this->__('Login')?></a></li>
+											<li class="mn-login"><a class="mobile-login" href="<?php echo $this->getUrl('customer/account/login')?>" title="<?php echo $this->__('Login')?>"><?php echo $this->__('Login')?></a></li>
+										<?php } else {?>
+											<li class="mn-logout"><a href="<?php echo $this->getUrl('customer/account/logout')?>" title="<?php echo $this->__('Logout');?>"><?php echo $this->__('Logout');?></a></li>
+										<?php }?>
+										</ul>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="header-banner-full">
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('banner-full-top')->toHtml(); ?>
+			</div>
+			
+			<?php echo $this->getChildHtml('customer_form_mini_login'); ?>
+
+			<div class="header-middle">
+				<div class="container">
+					<div class="content-header-bottom">
+						<div class="logo-wrapper">
+							<h1 class="logo">
+								<strong><?php echo $this->getLogoAlt() ?></strong>
+								<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo">
+									<img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" />
+								</a>
+								
+								<?php 
+									$logoSmall_src =   Mage::getStoreConfig('design/header/logo_src_small');
+									$src = $this->getSkinUrl().$logoSmall_src;
+								?>
+							</h1>
+							<p class="text-solution"><?php echo $this->__('The Best Prices to Buy')?></p>
+						</div>
+					
+						<div class="header-bottom-right">
+							<div class="minicart-header">
+								<?php echo $this->getChildHtml('mini-cartpro'); ?>
+							</div>
+							
+							<div class="search-header-bottom">
+								<div class="search-header-content">
+									<a href="javascript:void(0)" title="<?php echo $this->__('Search')?>" class="btn-search"><span class="hidden"><?php echo $this->__('Search')?></span></a>
+									
+									<div class="search-form-action">
+										<?php echo $this->getChildHtml('searchboxpro'); ?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="header-bottom">
+				<div class="yt-menu">
+					<div class="menu-under">
+						<div class="container">
+							<div class="content-header-bottom">
+								<div class="menu-vertical-wrap">
+									<?php echo $this->getChildHtml('megamenu-vertical');?>
+								</div>					
+								<div class="navigation-action">
+									<div class="menu-larger">
+										<div class="row">
+										<?php if( $var_yttheme->getParam('menustyle')=='mega' ){ ?>
+											<div class="col-lg-12 col-md-12">
+												<?php echo $this->getChildHtml('megaMenu'); ?>
+											</div>
+										<?php } else { ?>
+											<div class="col-lg-12 col-md-12">
+												<?php echo $this->getChildHtml('topMenu'); ?>
+											</div>
+										<?php } ?>
+										</div>
+									</div>
+									
+									<div class="mobile-menu">
+										<div class="container">
+											<div class="row">
+												<div class="col-lg-12 col-md-12">
+													<?php echo $this->getChildHtml('catalog.topmobinav'); ?>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+        <?php echo $this->getChildHtml('topContainer'); ?>
+    </div>
+</div>
+
+<?php if($config->getGeneral('menu_ontop') == 1){ ?>
+	<script>
+		jQuery(document).ready(function($){ 
+			$window = $(window);
+			if($('.menu-under').length){
+				menu_offset_top = $('.menu-under').offset().top;
+				function processScroll() {
+					var scrollTop = $window.scrollTop();
+					if ( scrollTop >= menu_offset_top) {
+						$('.menu-under').addClass('menu-on-top');
+					} else if (scrollTop <= menu_offset_top) {
+						$('.menu-under').removeClass('menu-on-top');
+					}
+				}
+				processScroll();
+				$window.scroll(function(){
+					processScroll();
+				});
+			}
+
+		});
+	</script>
+<?php } ?>

@@ -1,0 +1,171 @@
+
+.main .sm-serachbox-pro {
+	display: none;
+}
+.serachbox-pro-pretext, 
+.serachbox-pro-posttext{
+	margin: 10px 0;
+	width: 100%;
+}
+.serachbox-pro-posttext{
+	/*margin:20px 0;*/
+}
+.sm-serachbox-pro{
+	width: 100%;
+	position: relative;
+	margin: 10px 0;
+
+}
+.sm-serachbox-pro .sm-searchbox-popular{
+	width: 83%;
+	float: left;
+	margin-bottom: 10px;
+}
+.sm-serachbox-pro .sm-searchbox-advanced{
+	width: 17%;
+	float: right;
+	text-align: right;
+	margin-bottom: 10px;
+}
+.sm-serachbox-pro .sm-searchbox-advanced a{
+	text-decoration: none;
+	color: #4A629F;
+	font-size: 12px;
+}
+.sm-serachbox-pro .sm-searchbox-advanced a:hover{
+	text-decoration: underline;
+}
+.sm-serachbox-pro .sm-searchbox-popular .sm-searchbox-popular-title{
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	color: #4a629f;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.sm-serachbox-pro .sm-searchbox-keyword-list {
+    float: left;
+}
+.sm-serachbox-pro .sm-searchbox-keyword-list > li{
+	float: left;
+	line-height: 210%;
+}
+.sm-serachbox-pro .sm-searchbox-keyword-list > li a {
+    float: left;
+	margin-right: 10px;
+	color:#686868;
+	font-size:14px;
+	text-decoration: none;
+}
+.sm-serachbox-pro .sm-searchbox-keyword-list > li a:hover {
+	text-decoration: underline;
+}
+
+.sm-serachbox-pro .sm-searchbox-keyword-list > li a.sm-searchbox-more {
+    float: left;
+	margin-right: 10px;
+	color:#4A629F;
+	font-size:12px;
+	text-decoration: none;
+}
+.sm-serachbox-pro .sm-searchbox-keyword-list > li a.sm-searchbox-more:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.sm-serachbox-pro .sm-searbox-content {
+    display: inline-block;
+    width: 100%;
+	border: 2px solid @color_theme;
+}
+.sm-serachbox-pro .sm-searbox-content .form-search{
+	text-align: left;
+	border: none;
+	position: static;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+.sm-serachbox-pro .sm-searbox-content .form-search > input{
+    float: left;
+    color: #a1a1a1;
+    line-height: 40px;
+    position: absolute;
+    left: 2px;
+    z-index: 0;
+    padding-left: 200px;
+    height: 40px;
+    border: 0;
+    right: 2px;
+    font-size: 92.86%;
+    background: transparent;
+}
+.sm-serachbox-pro .sm-searbox-content .form-search > select{
+	width: 180px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 35px 0 20px;
+    float: left;
+    background: #eef1f5 url('../../../images/bg-cat-sear.png') no-repeat right 20px top 18px;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #e5e5e5;	
+}
+.sm-serachbox-pro .sm-searbox-content .form-button.button{
+    height: 40px;
+    float: right;
+    width: 42px;
+    position: absolute;
+    right: 0;
+    padding: 0 15px;
+    background: @color_theme;
+    z-index: 1;
+	&:hover {
+		background: @color_theme_active;
+		&:before {
+			color: #ecf0f1 !important;
+		}
+	}
+	span {
+		display: none;
+	}
+	&:before {
+		.font-awesome(f002,14px);
+		color: #ecf0f1;
+	}
+}
+.sm-serachbox-pro .sm-searbox-content .form-button.button:hover:before{
+	color: @color_theme;
+}
+
+.sm-serachbox-pro select option {
+    padding: 5px 10px;
+	color: #636363;
+}
+.sm-serachbox-pro input.input-text, .sm-serachbox-pro select, .sm-serachbox-pro textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C1CCD1;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+
+
+@media all and (max-width: 640px){
+	.sm-serachbox-pro .sm-searbox-content .form-search > input {
+		height: 38px;
+		line-height: 38px;
+		padding-left: 10px;
+	}
+	.sm-serachbox-pro .sm-searbox-content .form-button.button {
+		height: 38px;
+		width: 43px;
+	}
+	.sm-serachbox-pro .sm-searbox-content .form-search > select {
+		display: none;
+	}
+	
+}

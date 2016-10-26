@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="head">
+			<action method="addItem">
+				<type>skin_js</type>
+				<name helper="sm_cameraslider/data/getInlucdeJQquery"></name>
+			</action>
+			<action method="addItem">
+				<type>skin_js</type>
+				<name helper="sm_cameraslider/data/getInlucdeNoconflict"></name>
+			</action>
+			<action method="addItem">
+				<type>skin_js</type>
+				<name helper="sm_cameraslider/data/getInlucdeMigrate"></name>
+			</action>
+
+			<!-- <action method="addItem" ifconfig="cameraslider/general/enabled">
+				<type>skin_js</type>
+				<name>sm/cameraslider/js/camera.js</name>
+			</action> -->
+			<action method="addItem" ifconfig="cameraslider/general/enabled">
+				<type>skin_js</type>
+				<name>sm/cameraslider/js/enfinity.js</name>
+			</action>
+			<action method="addItem" ifconfig="cameraslider/general/enabled">
+				<type>skin_js</type>
+				<name>sm/cameraslider/js/jquery.easing.1.3.js</name>
+			</action>
+			<action method="addItem" ifconfig="cameraslider/general/enabled">
+				<type>skin_js</type>
+				<name>sm/cameraslider/js/jquery.mobile.customized.min.js</name>
+			</action>
+		</reference>
+	</default>
+</layout>

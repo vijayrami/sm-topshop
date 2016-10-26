@@ -1,0 +1,32 @@
+<?php
+/*------------------------------------------------------------------------
+ # SM Cart Pro - Version 2.0.0
+ # Copyright (c) 2015 YouTech Company. All Rights Reserved.
+ # @license - Copyrighted Commercial Software
+ # Author: YouTech Company
+ # Websites: http://www.magentech.com
+-------------------------------------------------------------------------*/
+$helper = Mage::helper('cartpro/data');
+if (!$helper->_getConfig('enable'))
+	return;
+	
+$_cartQty = $this->getSummaryCount();
+if(empty($_cartQty)) 
+	$_cartQty = 0;
+
+$config = Mage::helper('topshop/config');
+$hdStyle = $config->getThemeLayout('header_style');
+
+?>
+
+<div id="sm_cartpro" class="sm-cartpro">
+	<div class="cartpro-title <?php if($_cartQty <= 0): ?> cartpro-empty<?php endif; ?> ">
+		<span class="cartpro-label"><?php echo $this->__('Shopping Cart'); ?></span>	
+		<span class="cartpro-icon"></span>
+		<span class="cartpro-count"><?php echo $_cartQty; ?></span><span class="label-item"> item(s) | </span>
+		<span class="total-price"><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></span>		
+	</div>
+	<div class="cartpro-content">
+		<?php echo $this->getChildHtml('mini_cartpro_content'); ?>
+	</div>
+</div>

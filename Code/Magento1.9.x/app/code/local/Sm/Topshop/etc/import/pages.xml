@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<root>
+  <pages>
+    <cms_page>
+      <title>404 Not Found</title>
+      <root_template>one_column</root_template>
+      <identifier>no-route</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="wrapper_404page">
+	<div class="col-lg-7 col-md-7">
+		<div class="content-404page">
+			<p class="top-text">Don't worry you will be back on track in no time!</p>
+			<p class="img-404"><img src="{{media url="wysiwyg/404image/404-img-text.png"}}" alt="" /></p>
+			<p class="bottom-text">Page doesn't exist or some other error occured. Go to our home page or go back previous page</p>
+			<div class="button-404">
+				<a href="javascript:void(0);" onclick="goBack()" class="btn-404 prev-page-btn" title="PREVIOUS PAGE">PREVIOUS PAGE</a>
+				<a href="{{store url=""}}" class="btn-404 back2home" title="BACK TO HOMEPAGE">BACK TO HOMEPAGE</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-lg-5 col-md-5">
+		<div class="img-right-404">
+            <img src="{{media url="wysiwyg/404image/404-image.png"}}" alt="" />
+		</div>
+	</div>
+	<div style="clear:both; height:0px">&nbsp;</div>
+	<script>
+	function goBack() {
+		window.history.back()
+	}
+	</script>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Topshop - Responsive Magento Theme for Multipurpose</title>
+      <root_template>one_column</root_template>
+      <identifier>home-demo-01</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-default homestyle1">
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-1"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content listingtab-wrapper-default">
+
+		{{block type="listingtabs/list" name="listingtabs.list.default" template="sm/listingtabs/default.phtml"
+		listingtabs_title_text=""
+		filter_order_by="lastest_product,price,best_sales"
+		field_preload="price"
+		nbi_column1="4"
+		nbi_column2="3"
+		nbi_column3="2"
+		nbi_column4="1"
+		nav="1"
+		}}
+
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-2"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap fashion-cate">
+			{{block type="supercategories/list" name="supercategories.list.default" template="sm/supercategories/default.phtml"
+			pretext="static_c_fashion"
+			posttext="banner_s_p_fashion"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap furniture-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="207"
+			pretext="static_c_furniture"
+			posttext="banner_s_p_furniture"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap computer-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.2" template="sm/supercategories/default.phtml"
+			product_category="208"
+			pretext="static_c_computer"
+			posttext="banner_s_p_computer"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap healthy-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.3" template="sm/supercategories/default.phtml"
+			product_category="209"
+			pretext="static_c_healthy"
+			posttext="banner_s_p_healthy"
+			}}
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="box-content latest-post-wrapper">
+				<div class="slider-latest-blog">
+					{{block type="blog/blog" name="latest_post" template="aw_blog/latest-post.phtml"}}
+				</div>
+		</div>
+	</div>	
+
+	<div class="wow fadeInUp">
+		<div class="brand-wrapper">
+			{{block type="cms/block" block_id="brand-block"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[<reference name="full_top_container">
+        <block type="imageslider/list" name="imageslider.list.default" template="sm/imageslider/default.phtml">
+			</block>
+			<block type="deal/list" name="deal.list.default1" template="sm/deal/default.phtml"
+			deal_title_text="Hot Deals"
+			nb_column1="1"
+			nb_column2="1"
+			nb_column3="1"
+			nb_column4="1"
+			></block>
+</reference>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Customer Service</title>
+      <root_template>two_columns_left</root_template>
+      <identifier>customer-service</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="page-title">
+<h1>Customer Service</h1>
+</div>
+<!-- p style="border-bottom: 1px solid #E6E6E6; margin-bottom: 20px; *margin-bottom: 90px; padding-bottom: 43px;"><br></p -->
+<ul id="accordion" style="padding-left: 0;">
+<li class="plusimage" style="font-style: normal; margin-bottom: 6px; line-height: 16px !important;">
+<h2>SHIPPING &amp; DELIVERY</h2>
+<div class="customerservice_content" style="border-bottom: 1px solid #e6e6e6; margin-bottom:18px; *padding-bottom:18px">
+<p style="padding-bottom: 18px; padding-top: 10px;">
+    Shipping and Delivery is the charge for Internet order processing, item selection, packaging, transport and handling. Delivery times are not guaranteed, but are our best approximation and will vary with specific requests. Shipments and deliveries only occur on weekdays. Shipping and Delivery is subject to change and will be determined at the time of order.
+    <br><br>Estimated delivery time assumes orders are placed before 12:00 noon (PST).  Orders placed late on Friday or on Saturday will not be processed until Monday.  Additional charges may accrue on Priority, Overnight and International shipping if multiple attempts are made for delivery.
+    <br><br>Shipping addresses in Alaska, Hawaii, Puerto Rico, and Guam should add an additional $5.00 charge for standard Shipping &amp; Delivery. Orders arrive in 7 to 9 business days when ordered before 12:00 noon (PST).
+</p>
+ <table cellpadding="0" cellspacing="0" border="0" width="100%" style=" font:14px Georgia,Times New Roman,Times,serif italic " class="data-table">
+ 	<tr>
+    	<th width="156" style="text-align:center">&nbsp;</th>
+        <th width="156" style="text-align:center">Standard</th>
+        <th width="156" style="text-align:center">Priority</th>
+        <th width="156" style="text-align:center">Overnight</th>
+        <th width="156" style="text-align:center">International</th>
+    </tr>
+    <tr>
+    	<td style="text-align:center">&nbsp;</td>
+        <td>Package arrives 5 to 7 business days after processing if ordered by 12:00 noon (PST). </td>
+        <td>Package arrives 2 to 3 business days after processing if ordered by 12:00 noon (PST).</td>
+        <td>Package arrives the next business day if ordered before 12:00 noon (PST). </td>
+        <td>Order should arrive 3-9 business days after processing.  Flat rate does not include duties and taxes.</td>
+    </tr>
+   
+    <tr>
+    	<th colspan="5">Merchandise Total *</th>
+        
+    </tr>
+    <tr>
+    	<td>Up to $200</td>
+        <td style="text-align:center">$16 </td>
+        <td style="text-align:center">$26</td>
+        <td style="text-align:center">$33</td>
+        <td style="text-align:center">$80 (flat rate) excludes duties and taxes</td>
+    </tr>
+    <tr>
+    	<td>$200.01—500.00</td>
+        <td style="text-align:center">$21 </td>
+        <td style="text-align:center">$31</td>
+        <td style="text-align:center">$38</td>
+        <td style="text-align:center">&nbsp;</td>
+    </tr>
+    <tr>
+    	<td>$500.01—1000.00</td>
+        <td style="text-align:center">$29 </td>
+        <td style="text-align:center">$39</td>
+        <td style="text-align:center">$46</td>
+        <td style="text-align:center">&nbsp;</td>
+    </tr>
+    <tr>
+    	<td>Over $1000.00</td>
+        <td style="text-align:center">$34 </td>
+        <td style="text-align:center">$44</td>
+        <td style="text-align:center">$51</td>
+        <td style="text-align:center">&nbsp;</td>
+    </tr>
+    <tr><td colspan="5" style="text-align:center">*before tax and additional charges</td></tr>
+ </table>
+</div>
+</li>
+
+<li class="plusimage" style="font-style: normal; margin-bottom: 6px; line-height: 16px !important;">
+<h2>RETURNS &amp; REPLACEMENTS</h2>
+<div class="customerservice_content">
+<p style="border-bottom: 1px solid #e6e6e6; padding-bottom: 18px; padding-top: 10px;"><b>We want you to be completely happy with your order. </b> If for any reason you are not satisfied, we will gladly accept your timely return of unworn, unwashed, or defective merchandise. Used merchandise cannot be returned unless defective. Returned merchandise should include the vendor packaging and tags and be in the same condition as when it was received. A pickup and/or restock fee may apply.
+Merchandise must be returned within 30 days of receipt of merchandise.
+<br><br>
+
+<b>GIFTS</b><br>
+When returning a gift, a Madison Island Anytime Anyplace Gift Card will be issued to the gift recipient for the amount of the returned merchandise. The card can be used for purchases from any Madison Island or affiliate store, and online. In compliance with Federal law, for gifts valued at more than $2,000.00, the recipient will receive a check rather than an Anytime Anyplace Gift Card.<br><br>
+
+<b>RETURNING MERCHANDISE BY MAIL</b><br>
+On the back of the packing slip enclosed with your order, please note the reason(s) for return and whether you wish to exchange the item(s) or receive a credit/refund (depending on the original form of payment). Enclose the return section of the packing slip with your item(s). Please use one of the return labels provided on the front of your packing slip to ensure proper return address and credit information.<br><br>
+
+<b>OTHER ITEMS</b><br>
+All cosmetic and bath items must be unused, unopened, and in original packaging for a credit/refund or exchange to be issued. Restricted items must be returned using ground transportation.<br><br>
+
+<b>Please allow 10 to 14 days for the processing of your return.</b>
+
+</p>
+</div>
+</li>
+</ul>
+]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Company</title>
+      <root_template>two_columns_left</root_template>
+      <identifier>company</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="page-head">
+<h3>OUR STORY</h3>
+</div>
+<div class="col2-set content-seperator">
+<div class="col-1">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+<div class="col-2">
+<p><a href="http://www.varien.com/"><img title="Varien" src="{{skin url='images/media/aboutus.png'}}" alt="Varien" /></a></p>
+<h2 style="text-align: center;">Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit, sed do eiusmod tempor</h2>
+<p style="margin-top: 13px;">adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</p>
+</div>
+<p style="float: left; width: 100%; border-bottom: 1px solid #e6e6e6; padding-bottom: 18px; margin-top: 38px; text-align: center;"><img title="Varien" src="{{skin url='images/media/dottedcms.png'}}" alt="Varien" /></p>
+</div>
+<div class="std">
+<h1 style="margin-bottom: 9px; margin-top: 13px; text-align: center;">LOREM IPSUM</h1>
+<p>dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+<p style="float: left; margin-top: 7px;"><iframe src="http://player.vimeo.com/video/48910332?badge=0" frameborder="0" width="560" height="315"></iframe></p>
+<p style="float: left; width: 100%; margin-top: 24px; text-align: center; margin-bottom: 44px;"><img title="Varien" src="{{skin url='images/media/dottedcms.png'}}" alt="Varien" /></p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>About Us</title>
+      <root_template>two_columns_left</root_template>
+      <identifier>about-magento-demo-store</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="page-head">
+<h3>OUR STORY</h3>
+</div>
+<div class="col2-set content-seperator">
+<div class="col-1">
+<p>Madison Island is...</p>
+<p style="padding-left: 30px;">...a breath of fresh air.<br />&hellip;a mecca for style savvy travellers. <br />&hellip;a curator of gorgeous sartorial design. <br />&hellip;a world class concept store.</p></div>
+<div class="col-2">
+<p><img src="{{media url="wysiwyg/about_us.jpg"}}" alt="about-usimage" /></p>
+<h2 style="text-align: center;padding-left:30px">Madison Island Boutique in NYC</h2></div><div class="std">
+<p>Uniquely designed with cosmopolitan appeal, Madison Island gives couture-conscious frequent flyers exactly what they want&mdash;unprecedented access to the latest looks of the season, style solutions for easy international jet setting, and convenient worldwide delivery.</p>
+<p style="margin-top: 13px;">With its website relaunch in 2013, Madison Island has solidified its standing as the new essential luxury. Its pages are filled with exquisite finds for fashion and home.</p>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Topshop - V2 - Responsive Magento Theme for Multipurpose</title>
+      <root_template>one_column</root_template>
+      <identifier>home-demo-02</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-default homestyle2">
+	<div class="wow fadeInUp">
+		<div class="top-full">
+			<div class="row">
+				<div class="col-lg-3 vertical-menu-box">
+					{{block type="cms/block" block_id="megamenu-vertical"}}
+				</div>
+				<div class="col-lg-9 slideshow-box">
+					{{block type="imageslider/list" name="imageslider.list.default" template="sm/imageslider/default.phtml"}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-1-index2"}}
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="brand-wrapper">
+			{{block type="cms/block" block_id="brand-block"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content listingtab-wrapper-default">
+
+		{{block type="listingtabs/list" name="listingtabs.list.default2" template="sm/listingtabs/default.phtml"
+		listingtabs_title_text=""
+		filter_order_by="lastest_product,price,best_sales"
+		field_preload="price"
+		nbi_column1="4"
+		nbi_column2="3"
+		nbi_column3="2"
+		nbi_column4="1"
+		nav="1"
+		}}
+
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-2"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap fashion-cate">
+			{{block type="supercategories/list" name="supercategories.list.default" template="sm/supercategories/default.phtml"
+			pretext="static_c_fashion"
+			posttext="banner_s_p_fashion"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap furniture-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="207"
+			pretext="static_c_furniture"
+			posttext="banner_s_p_furniture"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap computer-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.2" template="sm/supercategories/default.phtml"
+			product_category="208"
+			pretext="static_c_computer"
+			posttext="banner_s_p_computer"
+			}}
+		</div>
+	</div>
+
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap healthy-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.3" template="sm/supercategories/default.phtml"
+			product_category="209"
+			pretext="static_c_healthy"
+			posttext="banner_s_p_healthy"
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 newsletter-box">
+					{{block type="newsletter/subscribe" name="newsletter.index2" template="newsletter/subscribe-index2.phtml"}}
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 latest-post-wrapper">
+					<div class="slider-latest-blog">
+						{{block type="blog/blog" name="latest_post_index2" template="aw_blog/latest-post-index2.phtml"}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Topshop - V3 - Responsive Magento Theme for Multipurpose</title>
+      <root_template>one_column</root_template>
+      <identifier>home-demo-03</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-default homestyle3">
+	<div class="wow fadeInUp">
+		<div class="top-full">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 vertical-menu-virtual">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 slideshow-box">
+					{{block type="imageslider/list" name="imageslider.list.default" template="sm/imageslider/default.phtml"}}
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 banner-box">
+					{{block type="cms/block" block_id="static-image-1-index3"}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-1-index2"}}
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="row featured-deal-wrap">
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 slider-basic-wrapper">
+				{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+					basicproducts_title_text="Featured Products"
+					product_order_by="price"
+					nb_column1="3"				
+					nb_column2="3"				
+					nb_column3="2"
+					nb_column4="2"
+					nb_column5="1"
+				}}
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 deal-wrapper slidebar">
+				{{block type="deal/list" name="deal.list.slider" template="sm/deal/slider-deal.phtml"
+					nb_column4="2"
+					nb_column5="1"
+					posttext=""
+				}}
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-8 left9-wrapper">
+				{{block type="cms/block" block_id="static-image-2-index3"}}
+				<div class="supercategories-wrap">
+					{{block type="supercategories/list" name="supercategories.list.default" template="sm/supercategories/default.phtml"
+						pretext="static_c_fashion"
+						posttext="banner_s_p_fashion"
+						product_limitation_a_slider="4"
+					}}
+				</div>
+				<div class="supercategories-wrap furniture-cate">
+					{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+						product_category="207"
+						pretext="static_c_furniture"
+						posttext="banner_s_p_furniture"
+						product_limitation_a_slider="4"
+					}}	
+				</div>				
+				<div class="supercategories-wrap computer-cate">
+					{{block type="supercategories/list" name="supercategories.list.default.2" template="sm/supercategories/default.phtml"
+						product_category="208"
+						pretext="static_c_computer"
+						posttext="banner_s_p_computer"
+						product_limitation_a_slider="4"
+					}}
+				</div>					
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-4 slidebar">
+				<div class="slider-basic-wrapper">
+					{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+						basicproducts_title_text="Best sellers"
+						product_order_by="best_sales"
+						nb_column1="1"
+						nb_column2="1"				
+						nb_column3="1"				
+						nb_column4="2"
+						nb_column5="1"
+					}}
+				</div>
+				{{block type="cms/block" block_id="static-image-3-index3"}}
+				<div class="slider-basic-wrapper">
+					{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+						basicproducts_title_text="New Products"
+						product_order_by="created_at"
+						nb_column1="1"
+						nb_column2="1"				
+						nb_column3="1"				
+						nb_column4="2"
+						nb_column5="1"
+					}}
+				</div>
+				{{block type="cms/block" block_id="static-image-4-index3"}}
+				<div class="latest-post-wrapper">
+					<div class="slider-latest-blog">
+						{{block type="blog/blog" name="latest_post_index3" template="aw_blog/latest-post-index3.phtml"}}
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="brand-wrapper">
+			{{block type="cms/block" block_id="brand-block"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Topshop - V4 - Responsive Magento Theme for Multipurpose</title>
+      <root_template>one_column</root_template>
+      <identifier>home-demo-04</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-default homestyle4">
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-1-index4"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content hotdeal-custom-wrapper">
+
+		{{block type="custom/list" template="sm/custom/default.phtml"}}
+			<div class="slider-basic-wrapper">
+				{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+					basicproducts_title_text="Hot deals"
+					product_order_by="created_at"
+					product_category="201"
+					nb_column1="4"				
+					nb_column2="4"				
+				}}
+			</div>
+
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content banner-2">
+			{{block type="cms/block" block_id="static-image-2"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap women-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="247"
+			product_limitation_a_slider="4"
+			pretext="banner-c-women"
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap men-cate supercate-right">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="245"
+			product_limitation_a_slider="4"
+			pretext="banner-c-men"
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap shoe-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="214"
+			product_limitation_a_slider="4"
+			pretext="banner-c-shoe"
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-2-index4"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content latest-post-wrapper">
+			<div class="slider-latest-blog">
+				{{block type="blog/blog" name="latest_post" template="aw_blog/latest-post-index4.phtml"}}
+			</div>
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="brand-wrapper">
+			{{block type="cms/block" block_id="brand-block"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[<reference name="full_top">
+        <block type="imageslider/list" name="imageslider.list.default" template="sm/imageslider/default.phtml">
+			</block>
+</reference>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>Topshop - V5 - Responsive Magento Theme for Multipurpose</title>
+      <root_template>one_column</root_template>
+      <identifier>home-demo-05</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-default homestyle5">
+	<div class="wow fadeInUp">
+		<div class="top-full">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 hidden-sm vertical-menu-virtual">
+					{{block type="cms/block" block_id="megamenu-vertical"}}
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12 slideshow-box">
+					{{block type="imageslider/list" name="imageslider.list.default" template="sm/imageslider/default.phtml"}}
+				</div>
+				<div class="col-lg-2 col-md-2 hidden-sm hidden-xs banner-box">
+					{{block type="cms/block" block_id="static-image-1-index5"}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-service-1-index5"}}
+		</div>
+	</div>
+	
+	<div class="wow fadeInUp">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 slidebar deal-wrapper">
+				{{block type="deal/list" name="deal.list.slider" template="sm/deal/slider-deal.phtml"
+					posttext=""
+					nb_column5="1"	
+				}}
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-6  slider-basic-wrapper">
+				{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+					basicproducts_title_text="Featured Products"
+					product_order_by="price"
+					nb_column1="3"				
+					nb_column2="3"				
+					nb_column3="2"		
+					nb_column4="1"		
+					nb_column5="1"		
+				}}
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="wow fadeInUp">
+		<div class="row box-content">
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 slidebar">
+				<div class="slider-basic-wrapper">
+					{{block type="basicproducts/list" name="basicproducts.slider.home" template="sm/basicproducts/basic-slider-home.phtml"
+						basicproducts_title_text="New Products"
+						product_order_by="created_at"
+						nb_column1="1"
+						nb_column2="1"
+						nb_column3="1"
+					}}
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 banner-custom-wrapper">
+				<div class="banner-wrapper">
+					{{block type="cms/block" block_id="static-image-2-index5"}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap women-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="247"
+			product_limitation_a_slider="5"
+			pretext=""
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap men-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="245"
+			product_limitation_a_slider="5"
+			pretext=""
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="banner-wrapper box-content">
+			{{block type="cms/block" block_id="static-image-2-index4"}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content supercategories-wrap shoe-cate">
+			{{block type="supercategories/list" name="supercategories.list.default.1" template="sm/supercategories/default.phtml"
+			product_category="214"
+			product_limitation_a_slider="5"
+			pretext=""
+			posttext=""
+			}}
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="box-content latest-post-wrapper">
+			<div class="slider-latest-blog">
+				{{block type="blog/blog" name="latest_post" template="aw_blog/latest-post-index4.phtml"}}
+			</div>
+		</div>
+	</div>
+
+	<div class="wow fadeInUp">
+		<div class="brand-wrapper">
+			{{block type="cms/block" block_id="brand-block"}}
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+    <cms_page>
+      <title>All categories</title>
+      <root_template>one_column</root_template>
+      <identifier>sub-cateogries1</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="block-cat">
+ <div class="content-cat">
+  <div class="row">
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/mobile-accessories.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/00.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Mobile Accessories" href="#">Mobile Accessories</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/beauty-women.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/01.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Beauty Women" href="#">Home Appliances</a>
+     </div>
+    </div>
+   </div>
+
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="craft-supplies.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/02.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Craft-supplies" href="#">Smartphones & Tablet</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="kid-baby.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/03.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Kid Baby" href="#">Computers & Laptops</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/televisions.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/04.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="televisions" href="#">Televisions</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/secondhand.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/05.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="secondhand" href="#">Mobile Accessories</a>
+     </div>
+    </div>
+   </div>
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/pc-components.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/06.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="pc-components" href="#">Pc Components</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="fashion-accesories/men.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/08.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="men" href="#">Mobile & Ipad</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="fashion-accesories/women.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/07.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="women" href="#">Electonic Televisions</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_page>
+  </pages>
+</root>

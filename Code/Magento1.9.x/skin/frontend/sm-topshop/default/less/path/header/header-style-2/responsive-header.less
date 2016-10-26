@@ -1,0 +1,148 @@
+@media (min-width: 1600px) {
+
+}
+
+@media (min-width: 1200px) {
+	.header-style-2{
+	}
+}
+
+@media (max-width: 1199px) {
+	.header-style-2{
+		.menu-larger .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu {
+			padding-left: 230px;
+			> li {
+				> a {
+					font-size: 92.86%;
+					padding: 0 15px;
+				}			
+				> div {
+					left: 0 !important;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991px) {
+	.header-style-2{
+		.col-lg-6.col-md-5.header-topleft {
+			float: left;
+			width: 35%;
+		}
+		.menu-larger {
+			display: none;
+		}
+		.mobile-menu {
+			display: block;
+			overflow: hidden;
+			width: 100%;
+		}
+		.btn-mobile-wrapper {
+			border-right: 0;
+			float: right;
+			padding-right: 28px;
+			a {
+				color: #fff;
+				&:hover {
+					color: @color_theme;
+				}
+			}
+		}
+	}
+	.active_sidebar .header-middle {
+		z-index: 102;
+	}
+}
+
+@media (max-width: 767px) {
+	.header-style-2{
+		.col-lg-6.col-md-5.header-topleft {
+			text-align: center;
+			width: 100%;
+		}
+		.col-lg-6.col-md-7.header-topright {
+			text-align: center;
+			width: 100%;
+		}
+		.header-top .dropdown-block {
+			display: inline-block;
+			float: none;
+			border-right: 0;
+			&:last-child {
+				border-left: 0;
+			}
+			.dropdown-list {
+				text-align: left;
+			}
+		}
+		.block-custom-mobile {
+			margin-bottom: 20px;
+			margin-top: 20px;
+			.dropdown-block {
+				border: 1px solid #c8c8c8;
+				border-left: 0;
+				margin-left: -4px;
+				&:first-child {
+					border-left: 1px solid #c8c8c8;
+				}
+				.dropdown-toggle {
+					margin-right: 15px;
+					padding: 0 20px;
+				}
+			}
+		}		
+		.search-header-bottom .sm-serachbox-pro .sm-searbox-content {
+			height: 48px;
+			.form-search > input {
+				padding-left: 15px;
+			}
+		}
+		.btn-mobile-wrapper {
+			padding-right: 0;
+		}		
+	}
+}
+
+@media (max-width: 567px) {
+	.header-style-2{
+	}
+}
+
+@media (max-width: 479px) {
+	.header-style-2{
+		.col-lg-6.col-md-5.header-topleft {
+			display: none;
+		}	
+		.block-custom-mobile .dropdown-block .dropdown-toggle {
+			margin-right: 8px;
+			padding: 0 10px;
+		}
+		.header-top .dropdown-block {
+			padding: 0 5px 5px;
+			&.block-help,
+			&.block-mobile {
+				display: none !important;
+			}
+		}		
+		.search-header-bottom {
+			padding-right: 50px;
+		}		
+		.minicart-header {
+			width: 10%;
+			right: 19px;
+			.sm-cartpro .cartpro-title {
+				  background-position: center center;
+				  height: 48px;
+				  width: 48px;
+				  > span {
+					display: none;
+				  }
+			}			
+		}
+		.sm-cartpro .cartpro-content {
+		  padding: 15px;
+		  right: -19px;
+		  width: 290px;
+		}
+	}
+}

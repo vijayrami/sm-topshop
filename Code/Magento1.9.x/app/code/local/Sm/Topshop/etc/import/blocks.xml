@@ -1,0 +1,1730 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_block>
+      <title>Footer Links SM</title>
+      <identifier>footer_links_sm</identifier>
+      <content><![CDATA[<div class="links social-media">
+	<div class="block-title">
+		<strong><span>Connect With Us</span></strong>
+	</div>
+	<ul>
+		<li><a href="#"><em class="facebook"></em>Facebook</a></li>
+		<li><a href="#"><em class="twitter"></em>Twitter</a></li>
+		<li><a href="#"><em class="youtube"></em>YouTube</a></li>
+		<li><a href="#"><em class="pinterest"></em>Pinterest</a></li>
+		<li class="last"><a href="#"><em class="rss"></em>RSS</a></li>
+	</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Main image 404 Page</title>
+      <identifier>main-image-404-page</identifier>
+      <content><![CDATA[<img title="image404" src="{{skin url='images/media/image404.png'}}" alt="image404" />]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - About Us Style 1</title>
+      <identifier>about-us-style1</identifier>
+      <content><![CDATA[<div class="about-us about-demo-1">
+	<div class="row">
+		<div class="col-lg-5 col-md-5 about-image">
+			<img src="{{media url="wysiwyg/about-us-page/about-us.jpg"}}" alt="About Us" />
+		</div>
+		
+		<div class="col-lg-7 col-md-7 about-info">
+			<h2 class="about-title">About Us</h2>
+			<div class="about-text">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 col-md-12 what-client-say">
+			<div class="client-say-content">
+				<h2 class="about-title">What Clients Say</h2>
+				
+				<div class="client-say-slider">
+					<div class="item">
+						<p class="des-member des-client">&ldquo;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.&rdquo;</p>
+						<h3 class="name-member">Jennifer lawrence</h3>
+						<p class="job-member">Co Founder</p>
+					</div>
+					
+					<div class="item">
+						<p class="des-member des-client">&ldquo;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.&rdquo;</p>
+						<h3 class="name-member">Jennifer lawrence</h3>
+						<p class="job-member">Co Founder</p>
+					</div>
+					
+					<div class="item">
+						<p class="des-member des-client">&ldquo;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.&rdquo;</p>
+						<h3 class="name-member">Jennifer lawrence</h3>
+						<p class="job-member">Co Founder</p>
+					</div>
+					
+					<div class="item">
+						<p class="des-member des-client">&ldquo;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.&rdquo;</p>
+						<h3 class="name-member">Jennifer lawrence</h3>
+						<p class="job-member">Co Founder</p>
+					</div>
+				</div>
+				
+				<script>
+					jQuery(document).ready(function($) {
+						var client_say_slider = $(".client-say-slider");
+						client_say_slider.owlCarousel({
+							responsive:{
+								0:{
+									items:1
+								},
+								480:{
+									items:1
+								},
+								768:{
+									items:1
+								},
+								992:{
+									items:1
+								},
+								1200:{
+									items:1
+								}
+							},
+							
+							autoplay:false,
+							loop:false,
+							nav : false,
+							dots: true,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30,
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 col-md-12 our-team">
+			<div class="our-team-content">
+				<h2 class="about-title">Our Team</h2>
+				
+				<div class="our-team-slider">
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-1.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-2.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-3.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-4.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-1.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<script>
+					jQuery(document).ready(function($) {
+						var our_team_slider = $(".our-team-slider");
+						our_team_slider.owlCarousel({
+							responsive:{
+								0:{
+									items:1
+								},
+								480:{
+									items:2
+								},
+								768:{
+									items:3
+								},
+								992:{
+									items:3
+								},
+								1200:{
+									items:4
+								}
+							},
+							
+							autoplay:false,
+							loop:false,
+							nav : true,
+							dots: false,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30,
+						});
+					});
+				</script>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - About Us Style 2</title>
+      <identifier>about-us-style2</identifier>
+      <content><![CDATA[<div class="about-us about-demo-2">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 about-us-center">
+			<div class="about-image-slider">
+				<div class="slider-image-content">
+					<div class="item"><img src="{{media url="wysiwyg/about-us-page/about-slider/about-1.jpg"}}" alt="About Us" /></div>
+					<div class="item"><img src="{{media url="wysiwyg/about-us-page/about-slider/about-2.jpg"}}" alt="About Us" /></div>
+					<div class="item"><img src="{{media url="wysiwyg/about-us-page/about-slider/about-3.jpg"}}" alt="About Us" /></div>
+				</div>
+				
+				<script>
+					jQuery(document).ready(function($) {
+						var slider_image_about = $(".slider-image-content");
+						slider_image_about.owlCarousel({
+							responsive:{
+								0:{
+									items:1
+								},
+								480:{
+									items:1
+								},
+								768:{
+									items:1
+								},
+								992:{
+									items:1
+								},
+								1200:{
+									items:1
+								}
+							},
+							
+							autoplay:false,
+							loop:false,
+							nav : true,
+							dots: false,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30,
+						});
+					});
+				</script>
+			</div>
+			
+			<div class="content-description">
+				<h2 class="about-title">About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+				<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 col-md-12 our-team">
+			<div class="our-team-content">
+				<div class="our-team-slider">
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-1.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-2.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-3.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-4.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="member">
+							<div class="member-image">
+								<img src="{{media url="wysiwyg/about-us-page/member/member-1.jpg"}}" alt="Image Client" />
+							</div>
+							
+							<div class="member-info">
+								<h3 class="name-member">Jennifer lawrence</h3>
+								<p class="job-member">Co Founder</p>
+								<p class="des-member">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum</p>
+								<ul class="social-member">
+									<li class="social-icon rss"><a class="fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+									<li class="social-icon facebook"><a class="fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+									<li class="social-icon twitter"><a class="fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+									<li class="social-icon google"><a class="fa fa-google" href="#" title="Google"><span>Google</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<script>
+					jQuery(document).ready(function($) {
+						var our_team_slider = $(".our-team-slider");
+						our_team_slider.owlCarousel({
+							responsive:{
+								0:{
+									items:1
+								},
+								480:{
+									items:2
+								},
+								768:{
+									items:3
+								},
+								992:{
+									items:3
+								},
+								1200:{
+									items:4
+								}
+							},
+							
+							autoplay:false,
+							loop:false,
+							nav : true,
+							dots: false,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30,
+						});
+					});
+				</script>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 col-md-12 client-logo">
+			<div class="client-logo-content">
+				<h2 class="about-title">Our Happy Clients</h2>
+				
+				<div class="client-logo-slider">
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-1.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-2.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-3.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-4.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-5.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-6.png"}}" alt="Client" /></a>
+					</div>
+					
+					<div class="item">
+						<a href="#" title="Client"><img src="{{media url="wysiwyg/about-us-page/logo-client/about-client-1.png"}}" alt="Client" /></a>
+					</div>
+				</div>
+				
+				<script>
+					jQuery(document).ready(function($) {
+						var client_logo_slider = $(".client-logo-slider");
+						client_logo_slider.owlCarousel({
+							responsive:{
+								0:{
+									items:2
+								},
+								480:{
+									items:3
+								},
+								768:{
+									items:5
+								},
+								992:{
+									items:5
+								},
+								1200:{
+									items:6
+								}
+							},
+							
+							autoplay:false,
+							loop:false,
+							nav : true,
+							dots: false,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30,
+						});
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - About Us Style 3</title>
+      <identifier>about-us-style3</identifier>
+      <content><![CDATA[<div class="about-us about-demo-3">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 about-image">
+			<img src="{{media url="wysiwyg/about-us-page/about-us-demo3.jpg"}}" alt="About Us" />
+		</div>
+		
+		<div class="col-lg-6 col-md-6 about-info">
+			<h2 class="about-title">About Us</h2>
+			<div class="about-text">
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+				</p>
+				<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-6 col-md-6 skills-description">
+			<h2 class="about-title">Our Skills</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br> 
+				Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+			</p>
+		</div>
+		
+		<div class="col-lg-6 col-md-6 skills-value">
+			<ul class="value-list">
+				<li class="item">
+					<p class="label-skill">Skill Lorem ipsum:</p>
+					<div class="range-value" style="background-color:#d9d9d9">
+						<span class="rating-skills skill-1" style="width:85%;">85%</span>
+					</div>
+				</li>
+				
+				<li class="item">
+					<p class="label-skill">Skill donec pede:</p>
+					<div class="range-value" style="background-color:#d9d9d9">
+						<span class="rating-skills skill-2" style="width:74%;">74%</span>
+					</div>
+				</li>
+				
+				<li class="item">
+					<p class="label-skill">Skill nulla consequat:</p>
+					<div class="range-value" style="background-color:#d9d9d9">
+						<span class="rating-skills skill-3" style="width:89%;">89%</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - About Us Style 4</title>
+      <identifier>about-us-style4</identifier>
+      <content><![CDATA[<div class="about-us about-demo-4">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 about-us-content">
+			<div class="content-about">
+				<h2 class="about-title">About Us</h2>
+				<img src="{{media url="wysiwyg/about-us-page/about-us-demo4.jpg"}}" alt="About Us" />
+				<p class="description-about">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec vulputate
+				</p>
+			</div>
+		</div>
+		
+		<div class="col-lg-6 col-md-6 faq-about-us">
+			<h2 class="about-title">Faqs</h2>
+			<div class="content-faq">
+				<div id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingOne">
+					  <h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  <span>Etharums ser quidem rerum?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingTwo">
+					  <h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  <span>Lorem ipsum dolor sit amet?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingThree">
+					  <h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						  <span>Nam vitae felis pretium, euismod ipsum nec?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingFour">
+					  <h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						  <span>Quisque posuere dolor in malesuada?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingFive">
+					  <h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						  <span>Quisque posuere dolor in malesuada?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				  
+				  <div class="panel">
+					<div class="panel-head" role="tab" id="headingSix">
+					  <h4 class="panel-title">
+						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						  <span>Lorem ipsum dolor sit amet?</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+					  <div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - Contact - Google Map</title>
+      <identifier>contact-googlemap</identifier>
+      <content/>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - Contact Us Style 1 </title>
+      <identifier>contact-us-style1</identifier>
+      <content><![CDATA[<div class="contact-us contact-demo-1">
+	<div class="title-contact">
+		<h2>Contact Us</h2>
+	</div>
+	
+	<div class="google-map">
+		{{block type="cms/block" name="google_map" block_id="contact-googlemap"}} 
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-info">
+				<div class="title-contact-normal">
+					<h2>About Us</h2>
+				</div>	
+				
+					<div class="contact-content">
+						<p class="contact-description">
+							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br>
+							Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore
+						</p>
+						
+						<ul class="address-info">
+							<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br>Accums Fringilla</li>
+							<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+							<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+						</ul>
+						
+						<ul class="social-list">
+							<li><a class="icon-social fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+							<li><a class="icon-social fa fa fa-google-plus" href="#" title="Google"><span>Google</span></a></li>
+							<li><a class="icon-social fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+							<li><a class="icon-social fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+							<li><a class="icon-social fa fa fa-youtube" href="#" title="Youtube"><span>Youtube</span></a></li>
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+		
+		<div class="col-lg-8 col-md-8">
+			<div class="contact-form">
+				<div class="title-contact-normal">
+					<h2>Send Your Comments</h2>
+				</div>
+				
+				<div class="request-form">
+					{{block type="core/template" name="contactForm" template="contacts/form.phtml"}} 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - Contact Us Style 2</title>
+      <identifier>contact-us-style2</identifier>
+      <content><![CDATA[<div class="contact-us contact-demo-2">
+	<div class="title-contact">
+		<h2>Contact Us</h2>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-6 col-md-6">
+			<div class="google-map">
+				{{block type="cms/block" name="google_map" block_id="contact-googlemap"}} 
+			</div>
+		</div>
+		
+		<div class="col-lg-6 col-md-6">
+			<div class="contact-form">
+				<div class="title-contact-normal">
+					<h2>Send Your Comments</h2>
+				</div>
+				
+				<div class="request-form">
+					{{block type="core/template" name="contactForm" template="contacts/form.phtml"}} 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-info">
+				<div class="title-contact-normal">
+					<h2>Main Office</h2>
+				</div>
+				
+				<div class="contact-content">
+					<ul class="address-info">
+						<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br>Accums Fringilla</li>
+						<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+						<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-info">
+				<div class="title-contact-normal">
+					<h2>Chicago Agent</h2>
+				</div>
+				
+				<div class="contact-content">
+					<ul class="address-info">
+						<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br>Accums Fringilla</li>
+						<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+						<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-info">
+				<div class="title-contact-normal">
+					<h2>New York Agent</h2>
+				</div>
+				
+				<div class="contact-content">
+					<ul class="address-info">
+						<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br>Accums Fringilla</li>
+						<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+						<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - Contact Us Style 3</title>
+      <identifier>contact-us-style3</identifier>
+      <content><![CDATA[<div class="contact-us contact-demo-3">
+	<div class="title-contact">
+		<h2>Contact Us</h2>
+	</div>
+	
+	<div class="google-map">
+		{{block type="cms/block" name="google_map" block_id="contact-googlemap"}} 
+	</div>
+	
+	<div class="description-contact-dm4">
+		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Quis nostrud exercitation llamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore
+	</div>
+	
+	<div class="list-contact-wrapper">
+		<div class="row">
+			<ul class="list-info-contact">
+				<li class="col-lg-4 col-md-4">
+					<div class="address-contact">
+						123 Suspendis mattis, Sollicitudin District,<br>
+						Accums Fringilla
+					</div>
+				</li>
+				
+				<li class="col-lg-4 col-md-4">
+					<div class="email-contact">
+						<p>Email: </p>
+						<p>
+							<a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a><br>
+							<a title="Send Email" href="mailto:contact@domainstore.com">contact@domainstore.com</a>
+						</p>
+					</div>
+				</li>
+				
+				<li class="col-lg-4 col-md-4">
+					<div class="hotline-contact">
+						<p>Hotline: </p>
+						<p>
+							<a title="Call" href="tel:0123456789">012-3456-789</a><br>
+							<a title="Call" href="tel:012345678910">012-3456-78910</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+			<div class="contact-form">
+				<div class="title-contact-normal">
+					<h2>Send Your Comments</h2>
+				</div>
+				
+				<div class="request-form">
+					{{block type="core/template" name="contactForm" template="contacts/form2.phtml"}} 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Theme - Contact Us Style 4</title>
+      <identifier>contact-us-style4</identifier>
+      <content><![CDATA[<div class="contact-us contact-demo-4">
+	<div class="title-contact">
+		<h2>Contact Us</h2>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-info">
+					<div class="contact-content">
+						<p class="contact-description">
+							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, llamco laboris nisi ut aliquip sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Quis nostrud exercitation llamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore labore et dolor sit amet
+						</p>
+						
+						<ul class="address-info">
+							<li class="add-icon">123 Suspendis mattis, Sollicitudin District,<br>Accums Fringilla</li>
+							<li class="email-icon">Email: <a title="Send Email" href="mailto:support@domainstore.com">support@domainstore.com</a></li>
+							<li class="phone-icon">Hotline: <a title="Call" href="tel:0123456789">0123456789</a></li>
+						</ul>
+						
+						<ul class="social-list">
+							<li><a class="icon-social fa fa-facebook" href="#" title="Facebook"><span>Facebook</span></a></li>
+							<li><a class="icon-social fa fa fa-google-plus" href="#" title="Google"><span>Google</span></a></li>
+							<li><a class="icon-social fa fa-twitter" href="#" title="Twitter"><span>Twitter</span></a></li>
+							<li><a class="icon-social fa fa-rss" href="#" title="RSS"><span>RSS</span></a></li>
+							<li><a class="icon-social fa fa fa-youtube" href="#" title="Youtube"><span>Youtube</span></a></li>
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4">
+			<div class="google-map">
+				{{block type="cms/block" name="google_map" block_id="contact-googlemap"}} 
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4">
+			<div class="contact-form">
+				<div class="title-contact-normal">
+					<h2>Send Your Comments</h2>
+				</div>
+				
+				<div class="request-form">
+					{{block type="core/template" name="contactForm" template="contacts/form.phtml"}} 
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Header Dropdown My Account</title>
+      <identifier>dropdown-my-account</identifier>
+      <content><![CDATA[											<li><a title="My Orders" href="{{store url="sales/order/history"}}">My Orders</a></li>
+											<li><a title="Account Information" href="{{store url="customer/account/edit"}}">Account Information</a></li>
+											<li><a title="Address Book" href="{{store url="customer/address"}}">Address Book</a></li>
+											<li><a title="My Tags" href="{{store url="tag/customer"}}">My Tags</a></li>
+											<li><a title="Billing Agreements" href="{{store url="sales/billing_agreement"}}">Billing Agreements</a></li>
+											<li><a title="Recurring Profiles" href="{{store url="sales/recurring_profile"}}">Recurring Profiles</a></li>
+
+									]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Image Sidebar</title>
+      <identifier>image-static-sidebar</identifier>
+      <content><![CDATA[<div class="wow fadeInUp">
+<div class="static-image-sidebar" style="margin-bottom:30px;">
+<a title="Static Image" href="#"><img src="{{media url="wysiwyg/sidebar/img-sidebar.jpg"}}" alt="Static Image" /></a>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Product Sidebar</title>
+      <identifier>product-sidebar</identifier>
+      <content><![CDATA[{{block type="basicproducts/list" name="basicproducts.list.sidebar" template="sm/basicproducts/basic-product-list.phtml"
+	product_limitation="3"
+	basicproducts_title_text="Best Sellers"
+	product_order_dir="ASC"
+	product_order_by="best_sales"
+	product_title_maxlength="50"
+	product_title_display="1"
+	product_price_display="1"
+	product_reviews_count="1"
+	product_addcart_display="0"
+	product_addwishlist_display="0"
+	product_addcompare_display="0"
+	product_readmore_display="0"
+	product_description_display="0"
+	imgcfg_width="100"
+	imgcfg_height="100"
+}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Payment Footer</title>
+      <identifier>payment-footer</identifier>
+      <content><![CDATA[<img src="{{media url="wysiwyg/payment/payment.png"}}" alt="Payment" />]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Static Popup Newsletter</title>
+      <identifier>popup-newsletter</identifier>
+      <content><![CDATA[<h2>NEWSLETTER</h2>
+<p>Subscribe to the Topshop mailing list to receive updates on new arrivals, special offers and other discount information.</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - About Us Footer</title>
+      <identifier>about-us-footer</identifier>
+      <content><![CDATA[<img src="{{media url="wysiwyg/footer/footer-logo.png"}}" alt="Topshop - Responsive Magento Theme for Multipurpose" />
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - My accout footer</title>
+      <identifier>ft-my-account</identifier>
+      <content><![CDATA[<div class="block ft-my-account">
+	<div class="title">
+		MY ACCOUNT
+	</div>
+	<div class="content">
+		<ul>
+			<li><a href="{{config path="web/secure/base_url"}}customer/account/" title="My account">My account</a></li>
+			<li><a href="{{config path="web/secure/base_url"}}customer/login/" title="Login">Login</a></li>
+			<li><a href="{{config path="web/secure/base_url"}}checkout/cart/" title="My Cart">My Cart</a></li>
+			<li><a href="{{config path="web/secure/base_url"}}wishlist/" title="My Wishlist">My Wishlist</a></li>
+			<li><a href="{{config path="web/secure/base_url"}}catalog/product_compare/" title="My Compare">My Compare</a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Contact us footer</title>
+      <identifier>ft-contact-us</identifier>
+      <content><![CDATA[<div class="block ft-contact-us">
+	<div class="title">
+		Store Information
+	</div>
+	<div class="content">
+		<p class="address">
+		<i class="fa fa-home"></i>Ranelagh Place, Liverpool, L3 5UL, England
+		</p>
+		<p class="phone">
+		<i class="fa fa-phone"></i><a href="#" title="Telephone">8 (495) 989 906 743</a>
+		</p>
+		<p class="email">
+		<i class="fa fa-envelope"></i><a href="mailto:topshop@co.uk.com" title="Mail to: topshop@co.uk.com">topshop@co.uk.com</a>
+		</p>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Static Image 1</title>
+      <identifier>static-image-1</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-1">
+	<div class="col-lg-4 col-md-4 col-xs-4">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-1.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="col-lg-8 col-md-8 col-xs-8">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-xs-6">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-2.jpg"}}" alt="Static Image" /></a>
+			</div>		
+			<div class="col-lg-6 col-md-6 col-xs-6 newsletter-wrap">
+				{{block type="newsletter/subscribe" name="newsletter" template="newsletter/subscribe.phtml"}}
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-3.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Brands</title>
+      <identifier>brand-block</identifier>
+      <content><![CDATA[<div class="title-home"><h2>Our brand</h2></div>
+<div class="brand-content">
+	<ul class="list-brands row">
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br01.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br02.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br03.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br04.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br05.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br06.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br07.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br08.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br09.jpg"}}" alt="Brand" /></a></li>
+		<li class="col-lg-2 col-md-2 col-sm-3"><a href="#" title="Brand"><img src="{{media url="wysiwyg/brand/br10.jpg"}}" alt="Brand" /></a></li>
+	</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Service</title>
+      <identifier>service-home</identifier>
+      <content><![CDATA[<div class="service-block">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="service-item">
+							<div class="icon-service">
+								<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-1.png"}}" alt="" /></span>
+							</div>
+							
+							<div class="content-service">
+								<div class="title-service">Return & Exchange
+								</div>
+								<div class="desc-service">Committed to return the money in 30 days
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="service-item">
+							<div class="icon-service">
+								<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-2.png"}}" alt="" /></span>
+							</div>
+							
+							<div class="content-service">
+								<div class="title-service">Recieve gift card
+								</div>
+								<div class="desc-service">Receive gift for all orders over $50
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="service-item">
+							<div class="icon-service">
+								<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-3.png"}}" alt="" /></span>
+							</div>
+							
+							<div class="content-service">
+								<div class="title-service">FREE SHIP ON ALL ORDERS
+								</div>
+								<div class="desc-service">Worldwide Shipping
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Service</title>
+      <identifier>service-home2</identifier>
+      <content><![CDATA[<div class="service-block service-home2">
+	<div class="title-block">Promotion</div>
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="service-item">
+				<div class="icon-service">
+					<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-1.png"}}" alt="" /></span>
+				</div>
+				
+				<div class="content-service">
+					<div class="title-service">Return & Exchange
+					</div>
+					<div class="desc-service">Send within 30 days.
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="service-item">
+				<div class="icon-service">
+					<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-2.png"}}" alt="" /></span>
+				</div>
+				
+				<div class="content-service">
+					<div class="title-service">RECEIVE GIFT CARD
+					</div>
+					<div class="desc-service">Receive gift for orders over $50
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="service-item">
+				<div class="icon-service">
+					<span><img src="{{media url="wysiwyg/home-page-image/home-1/icon-sc-3.png"}}" alt="" /></span>
+				</div>
+				
+				<div class="content-service">
+					<div class="title-service">FREE SHIP ON ALL ORDERS
+					</div>
+					<div class="desc-service">Worldwide Shipping
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Megamenu Detail</title>
+      <identifier>megamenu-vertical</identifier>
+      <content><![CDATA[{{block type="megamenu/list" template="sm/megamenu/megamenu-vertical.phtml"
+				title="All categories" 
+				group_id="5" 
+				theme="2"
+				start_level="1"
+				end_level="10"
+			}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Information footer</title>
+      <identifier>ft-information</identifier>
+      <content><![CDATA[<div class="block ft-information">
+	<div class="title">
+		INFORMATION
+	</div>
+	<div class="content">
+		<ul>
+			<li><a href="{{config path="web/secure/base_url"}}about-us.html" title="About Us">About Us</a></li>
+			<li><a href="#" title="Jobs">Jobs</a></li>
+			<li><a href="#" title="Delivery Information">Delivery Information</a></li>
+			<li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+			<li><a href="#" title="Term and Conditions">Term and Conditions</a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Category list</title>
+      <identifier>ft-category-footer</identifier>
+      <content><![CDATA[<div class="block ft-category">
+	<div class="content">
+		<ul>
+			<li><label title="WATCHES">WATCHES : </label></li>
+			<li><a href="#" title="Watches">Watches</a></li>
+			<li><a href="#" title="Titan Watches">Titan Watches</a></li>
+			<li><a href="#" title="Casio Watches">Casio Watches</a></li>
+			<li><a href="#" title="Fastrack Watches">Fastrack Watches</a></li>
+			<li><a href="#" title="Timex Watches">Timex Watches</a></li>
+			<li><a href="#" title="Fossil Watches">Fossil Watches</a></li>
+			<li><a href="#" title="Diesel Watches">Diesel Watches</a></li>
+			<li><a href="#" title="Luxury Watches ">Luxury Watches </a></li>
+			<li><a href="#" title="View all">View all</a></li>
+		</ul>
+		<ul>
+			<li><label title="CLOTHING">CLOTHING: </label></li>
+			<li><a href="#" title="Shirts">Shirts</a></li>
+			<li><a href="#" title="Jeans">Jeans</a></li>
+			<li><a href="#" title="T shirts">T shirts</a></li>
+			<li><a href="#" title="Kurtis ">Kurtis </a></li>
+			<li><a href="#" title="Sarees">Sarees</a></li>
+			<li><a href="#" title="Levis Jeans">Levis Jeans</a></li>
+			<li><a href="#" title="Killer Jeans">Killer Jeans</a></li>
+			<li><a href="#" title="Pepe Jeans ">Pepe Jeans </a></li>
+			<li><a href="#" title="Arrow Shirts ">Arrow Shirts </a></li>
+			<li><a href="#" title="Ethnic Wear ">Ethnic Wear </a></li>
+			<li><a href="#" title="Formal Shirts  ">Formal Shirts  </a></li>
+			<li><a href="#" title="Peter England Shirts  ">Peter England Shirts  </a></li>
+			<li><a href="#" title="View all">View all</a></li>
+		</ul>
+		<ul>
+			<li><label title="FOOTWEAR">FOOTWEAR : </label></li>
+			<li><a href="#" title="Shoes ">Shoes </a></li>
+			<li><a href="#" title="Casual Shoes ">Casual Shoes </a></li>
+			<li><a href="#" title="Adidas Shoes">Adidas Shoes</a></li>
+			<li><a href="#" title="Gas Shoes">Gas Shoes</a></li>
+			<li><a href="#" title=" Puma Shoes "> Puma Shoes </a></li>
+			<li><a href="#" title="Reebok Shoes ">Reebok Shoes </a></li>
+			<li><a href="#" title="Woodland Shoes ">Woodland Shoes </a></li>
+			<li><a href="#" title="Red tape Shoes ">Red tape Shoes </a></li>
+			<li><a href="#" title="Nike Shoes ">Nike Shoes </a></li>
+			<li><a href="#" title="View all">View all</a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop hotline</title>
+      <identifier>hotline</identifier>
+      <content><![CDATA[Call Support Free : (044) 6789 839]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop banner full top</title>
+      <identifier>banner-full-top</identifier>
+      <content><![CDATA[<a href="#" title="Static Image"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/banner-full-top.jpg"}}" alt="Image static" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner link Hot deal</title>
+      <identifier>banner-link-deal</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#"><img src="{{media url="wysiwyg/home-page-image/home-1/plicy-1.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/home-page-image/home-1/plicy-2.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/home-page-image/home-1/plicy-3.png"}}" alt="" /></a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop - Static Image 2</title>
+      <identifier>static-image-2</identifier>
+      <content><![CDATA[<div class="row banner-list">
+	<div class="col-lg-12 col-md-12">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-4.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner product Fashion</title>
+      <identifier>banner_s_p_fashion</identifier>
+      <content><![CDATA[<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_p_fashion.jpg"}}" alt="Static Image" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Fashion</title>
+      <identifier>static_c_fashion</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_fashion.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="brand">
+		<ul>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-1.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-2.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-3.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-4.jpg"}}" alt="Static Image" /></a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Furniture</title>
+      <identifier>static_c_furniture</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_furniture.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="brand">
+		<ul>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-1.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-2.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-3.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-4.jpg"}}" alt="Static Image" /></a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner product Furniture</title>
+      <identifier>banner_s_p_furniture</identifier>
+      <content><![CDATA[<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_p_furniture.jpg"}}" alt="Static Image" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Computer</title>
+      <identifier>static_c_computer</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_computer.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="brand">
+		<ul>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-1.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-2.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-3.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-4.jpg"}}" alt="Static Image" /></a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner product Computer</title>
+      <identifier>banner_s_p_computer</identifier>
+      <content><![CDATA[<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_p_computer.jpg"}}" alt="Static Image" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner product Healthy</title>
+      <identifier>banner_s_p_healthy</identifier>
+      <content><![CDATA[<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_p_healthy.jpg"}}" alt="Static Image" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Healthy</title>
+      <identifier>static_c_healthy</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_healthy.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="brand">
+		<ul>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-1.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-2.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-3.jpg"}}" alt="Static Image" /></a></li>
+			<li><a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/brand-c-4.jpg"}}" alt="Static Image" /></a></li>
+		</ul>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Menu Category on detail</title>
+      <identifier>menu_category_detail</identifier>
+      <content><![CDATA[<div class="block category-block-detail">
+	<div class="block-title">
+		<strong><span>Category</span></strong>
+	</div>
+	<div class="block-content">
+{{widget type="catalog/category_widget_link" template="catalog/category/widget/link/link_block.phtml" id_path="category/206"}}
+{{widget type="catalog/category_widget_link" template="catalog/category/widget/link/link_block.phtml" id_path="category/207"}}
+{{widget type="catalog/category_widget_link" template="catalog/category/widget/link/link_block.phtml" id_path="category/208"}}
+{{widget type="catalog/category_widget_link" template="catalog/category/widget/link/link_block.phtml" id_path="category/209"}}
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-1 index2</title>
+      <identifier>static-image-1-index2</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-1-index2">
+	<div class="col-lg-4 col-md-4 col-sm-4">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-1.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-2.jpg"}}" alt="Static Image" /></a>
+			</div>		
+			<div class="col-lg-6 col-md-6 col-sm-6 box-margin-bottom">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-2/image-1.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-3.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-1 index3</title>
+      <identifier>static-image-1-index3</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-1-index3">
+			<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 box-margin-bottom">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-3/image-1.jpg"}}" alt="Static Image" /></a>
+			</div>	
+			<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-3/image-2.jpg"}}" alt="Static Image" /></a>
+			</div>		
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-2 index3</title>
+      <identifier>static-image-2-index3</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-2-index3">
+	<div class="col-lg-12 col-md-12 box-margin-bottom">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-3/image-3.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-3 index3</title>
+      <identifier>static-image-3-index3</identifier>
+      <content><![CDATA[<div class="row banner-list box-margin-bottom">
+	<div class="col-lg-12 col-md-12">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-3/image-4.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-4 index3</title>
+      <identifier>static-image-4-index3</identifier>
+      <content><![CDATA[<div class="row banner-list">
+	<div class="col-lg-12 col-md-12 box-margin-bottom">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-3/image-5.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop banner full top header4</title>
+      <identifier>banner-full-top-h4</identifier>
+      <content><![CDATA[<a href="#" title="Static Image"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-4/banner-full-top.jpg"}}" alt="Image static" /></a>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-1 index4</title>
+      <identifier>static-image-1-index4</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-1-index4">
+	<div class="col-lg-4 col-md-4 col-sm-4">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-1.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-8">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-1/image-2.jpg"}}" alt="Static Image" /></a>
+			</div>		
+			<div class="col-lg-6 col-md-6 col-sm-6 box-margin-bottom">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-2/image-1.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-4/image-1.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Women</title>
+      <identifier>banner-c-women</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_women.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Toshop Banner cateogry Men</title>
+      <identifier>banner-c-men</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_men.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner category Shoe</title>
+      <identifier>banner-c-shoe</identifier>
+      <content><![CDATA[<div class="banner-c-brand">
+	<div class="banner">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/categories-image/banner_c_chair.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Banner static 2 index 4</title>
+      <identifier>static-image-2-index4</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-2-index4">
+	<div class="col-lg-6 col-md-6 col-sm-6">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-4/image-2.jpg"}}" alt="Static Image" /></a>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-4/image-3.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-1 index5</title>
+      <identifier>static-image-1-index5</identifier>
+      <content><![CDATA[<div class="row banner-list">
+	<div class="col-lg-12 col-md-12">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-5/image-1.jpg"}}" alt="Static Image" /></a>
+	</div>	
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static image-2 index5</title>
+      <identifier>static-image-2-index5</identifier>
+      <content><![CDATA[<div class="row banner-list static-image-2-index5">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<div class="row box-margin-bottom">
+			<div class="col-lg-12 col-md-12">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-5/image-2.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-5/image-3.jpg"}}" alt="Static Image" /></a>
+			</div>		
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<a class="first-image" title="Static Image" href="#"><img class="img-static" src="{{media url="wysiwyg/home-page-image/home-5/image-4.jpg"}}" alt="Static Image" /></a>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+    <cms_block>
+      <title>Topshop Static service 1 index 5</title>
+      <identifier>static-service-1-index5</identifier>
+      <content><![CDATA[<div class="static-service-1-index5">
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-service">
+			<div class="icon">
+				<span class="fa fa-paper-plane"></span>
+			</div>
+			<div class="info">
+				<p class="title">Free Shipping</p>
+				<p class="desc">On orders over $99.99</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  item-service">
+			<div class="icon">
+				<span class="fa fa-money"></span>
+			</div>
+			<div class="info">
+				<p class="title">Money Back 100%</p>
+				<p class="desc">Within 30 Days after delivery</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  item-service">
+			<div class="icon">
+				<span class="fa fa-phone"></span>
+			</div>
+			<div class="info">
+				<p class="title">Support 24/7</p>
+				<p class="desc">Support 100%</p>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_block>
+  </blocks>
+</root>

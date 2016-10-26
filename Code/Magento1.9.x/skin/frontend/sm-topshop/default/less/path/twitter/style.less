@@ -1,0 +1,105 @@
+.tw-item{
+  padding-bottom: 15px;
+  border-bottom: 1px solid @border-color;
+  margin-bottom: 15px;
+
+  &:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin:0;
+  }
+
+  .ts-header{
+    width: 100%;
+    display: inline-block;
+    margin-bottom:10px;
+
+    .ts-avatar{
+      width: 60px;
+      float: left;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .ts-userinfo{
+      margin-left: 70px;
+
+      h2{
+        font-weight: 700;
+        font-size: 107.69%;
+        color: #444;
+        text-transform: uppercase;
+      }
+
+      a{
+        font-size: 92.3%;
+        color: #999999;
+
+        &:hover{
+          color: @color_theme;
+        }
+      }
+    }
+  }
+
+  .ts-item{
+    clear: both;
+
+    .ts-text{
+      a{
+        color: @color_theme;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .ts-btn{
+      padding-top: 10px;
+
+      a{
+        color: #999999;
+        font-size: 92.30%;
+        margin-right: 15px;
+
+        &:last-child{
+          margin-right: 0;
+        }
+
+        &:hover{
+          color: @color_theme;
+        }
+      }
+
+      .reply-tweet{
+        &:before{
+          .font-awesome(f064,12px);
+          margin-right: 5px;
+        }
+      }
+
+      .retweet{
+        &:before{
+          .font-awesome(f079,14px);
+          margin-right: 5px;
+        }
+      }
+
+      .favorite-tweet{
+        &:before{
+          .font-awesome(f005,13px);
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.ts-btn-follow{
+  padding-top: 9px;
+  border-top: 1px solid @border-color;
+  margin-top: 10px;
+}

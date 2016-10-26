@@ -1,0 +1,25 @@
+<?php
+/*------------------------------------------------------------------------
+ # SM Super Categories - Version 1.0.0
+ # Copyright (c) 2014 YouTech Company. All Rights Reserved.
+ # @license - Copyrighted Commercial Software
+ # Author: YouTech Company
+ # Websites: http://www.magentech.com
+-------------------------------------------------------------------------*/?>
+
+<div class="ltabs-tabs-wrap">
+	<span class="ltabs-tab-selected"></span>
+	<span class="ltabs-tab-arrow"><span class="fa fa-caret-down"></span></span>
+	<ul class="ltabs-tabs cf">
+		<?php
+		foreach ($list as $tab) {?>
+				<li class="ltabs-tab <?php echo isset($tab->sel) ? '  tab-sel tab-loaded' : ''; ?>"
+				    data-category-id="<?php echo $tab->id; ?>"
+				    data-active-content=".items-category-<?php echo $tab->id; ?>">
+					<span
+						class="ltabs-tab-label"><?php echo $tab->title;?>
+					</span>
+				</li>
+		<?php } ?>
+	</ul>
+</div>
